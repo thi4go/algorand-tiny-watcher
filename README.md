@@ -12,7 +12,7 @@ Returns the state for each address wallet being watched
 
 Adds the address passed an a URL parameter into the watchlist
 
-#### Configurations
+### Configurations
 
 .env file
 
