@@ -14,7 +14,7 @@ Adds the address passed an a URL parameter into the watchlist
 
 ### Configurations
 
-.env file
+Create/Edit the `.env` file
 
 ```
 PORT                     : port the server will run in                            (defaults to :8080)
