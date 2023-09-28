@@ -4,15 +4,15 @@ Tiny package to watch for wallet state changes on the Algorand blockchain.
 
 ## Endpoints
 
-### [GET] /watch
+##### [GET] /watch
 
 Returns the state for each address wallet being watched
 
-### [POST] /watch/:address
+##### [POST] /watch/:address
 
 Adds the address passed an a URL parameter into the watchlist
 
-### Configurations
+#### Configurations
 
 .env file
 
@@ -22,7 +22,7 @@ ALGORAND_PROVIDER_URL    : the API for the algorand go SDK                      
 UPDATE_TIMEOUT_IN_SECONDS: the number of seconds the watcher will run its updates (defaults to 10 seconds)
 ```
 
-### Run
+#### Running
 
 ```
 docker compose  up -d --build
@@ -35,13 +35,13 @@ go get ./...
 go run .
 ```
 
-### Tests
+#### Tests
 
 ```
 go test ./...
 ```
 
-### Future Tasks
+#### Future Tasks
 
 - Better error handling. Improve and customize to the scopes needs
 - Add more test coverage
